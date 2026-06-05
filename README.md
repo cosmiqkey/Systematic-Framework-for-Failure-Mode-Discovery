@@ -160,18 +160,9 @@ If you use this work, please cite:
 
 ---
 
-## 📬 Contact
-
-For collaboration or questions, open an issue or contact the author.
-
----
 
 
-## Requirements
-- Python 3.10+
-- PyTorch 2.x
-- timm
-- umap-learn
-- torchmetrics
+
+
 
 
