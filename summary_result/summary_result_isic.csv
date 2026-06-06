@@ -1,0 +1,11 @@
+Model,Family,Acc_base,Acc_ret,F1_base,F1_ret,AUC_base,AUC_ret,ECE_base,ECE_ret,Delta_F1_pct,Strategy
+ResNet-50,CNN,75.8,75.8,75.8,79.7,0.94,0.94,0.03,0.033,+5.1%,Selective
+ResNet-101,CNN,77.0,77.0,76.9,81.4,0.94,0.94,0.03,0.039,+5.9%,Selective
+DenseNet-121,CNN,76.8,76.8,76.8,80.0,0.94,0.94,0.01,0.011,+4.1%,Selective
+EffNet-B3,Efficient,69.6,69.6,69.3,73.7,0.9,0.9,0.06,0.048,+6.4%,Weighted
+EffNet-B5,Efficient,75.1,75.1,75.0,80.9,0.93,0.93,0.07,0.064,+7.9%,Weighted
+MobileV3-L,Efficient,75.5,75.5,75.3,78.9,0.94,0.94,0.03,0.03,+4.8%,Weighted
+ViT-B/16,Transformer,73.6,73.6,73.6,74.4,0.93,0.93,0.03,0.03,+1.1%,Both
+Swin-T,Transformer,76.7,76.7,76.9,81.3,0.95,0.95,0.04,0.048,+5.7%,Both
+ConvNeXt-S,Hybrid,78.5,78.5,78.6,80.9,0.94,0.94,0.03,0.059,+2.9%,Both
+MaxViT-T,Hybrid,79.6,79.6,79.5,83.4,0.95,0.95,0.04,0.047,+4.9%,Both
